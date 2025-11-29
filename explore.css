@@ -1,0 +1,572 @@
+header {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 64px;
+}
+header nav {
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+body {
+    height: 2000px;
+}
+/* countries */
+#countries {
+    padding-bottom: 45px;
+    border-bottom: solid black 2px;
+    background: linear-gradient(#06234f, #212121);
+}
+#countries h3 {
+    margin-bottom: 60px;
+}
+#countries-row {
+    border: solid grey 1px;
+    border-radius: 40px;
+}
+#countries #third-row {
+    min-height: 0px;
+    max-height: 800px;
+
+}
+#countries-title {
+    margin-top: 0;
+}
+#top-card {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: solid white 1px;
+}
+#second-row-baby img{
+    height: 400px;
+    width: 100%;
+    border-radius: 40px;
+}
+#super-baby-row img {
+    width: 100%;
+}
+#countries-circle {
+    width: 100px; 
+    height: 100px;
+}
+#title-intro h4 {
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+#top {
+    background-image: url(img1/earth2.jpg);
+    background-size: cover;
+    min-height: 1000px;
+}
+header a.white-text {
+    text-shadow: 0 15px 20px rgba(72, 72, 72, 0.6), 0 0 30px rgba(225, 225, 225, 0.4);
+}
+header nav {
+    border-bottom: solid #424242 2px;
+}
+header nav a {
+    transition-property: all;
+    transition-timing-function: ease-out;
+    transition-duration: 0.8s;
+    transition-delay: 0;
+    color: white;
+}
+#logo  {
+    transition-property: all;
+    transition-timing-function: ease-out;
+    transition-duration: 0.3s;
+    transition-delay: 0;
+    color: white;
+}
+header nav.nav-wrapper:hover #logo{
+    color: rgb(56, 235, 24);
+    text-shadow: 0 0 3px white, 0 0 5px white, 0 0 8px white;
+}
+header nav.nav-wrapper {
+    background-color: transparent;
+    transition-property: all;
+    transition-timing-function: ease-out;
+    transition-duration: 0.3s;
+    transition-delay: 0;
+}
+header nav.nav-wrapper:hover {
+    background: rgba(224, 224, 224, 0.674);
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 10px rgba(72, 72, 72, 0.6),0 0 20px rgba(98, 98, 98, 0.727), 0 0 30px rgba(225, 225, 225, 0.4);
+}
+header nav.nav-wrapper:hover a{
+    color: black;
+    text-shadow: 0 0 3px white, 0 0 5px white, 0 0 8px white;
+}
+section h1 {
+    padding-top: 200px;
+    padding-bottom: 150px;
+    text-shadow: 0 0 10px rgba(225, 225, 225, 0.6), 0 0 30px rgba(225, 225, 225, 0.4);
+}
+#h1-title {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+#h1-title h1{
+    margin-top: 80px;
+    padding-top: 60px;
+    margin-bottom: 60px;
+    padding-bottom: 40px;
+}
+#cards-j {
+    height: 370px;
+    width: 500px;
+    border-radius: 60px;
+    background: transparent;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 10px rgba(72, 72, 72, 0.6),0 0 20px rgba(98, 98, 98, 0.727), 0 0 30px rgba(225, 225, 225, 0.4);
+    transition-duration: 0.5s;
+}
+#cards-j:hover {
+    background: rgba(164, 164, 164, 0.738);
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 10px rgba(72, 72, 72, 0.6),0 0 20px rgba(98, 98, 98, 0.727), 0 0 30px rgba(225, 225, 225, 0.4);
+    transform: translateY(-3px);
+
+}
+#cards-j:hover img{
+    transform: scale(1.05);
+}
+#column img{
+    width: 100%;
+    height: 260px;
+    border-radius: 20px;
+    padding-bottom: 30px;
+    transition-duration: 0.5s;
+}
+#column a{
+    padding-left: 50px;
+    font-size: 30px;
+    padding-bottom: 20px;
+    border-bottom: solid white 2px;
+    color: white;
+    
+}
+#cards-j:hover a{
+    text-shadow: 0 15px 20px rgba(72, 72, 72, 0.6);
+    color: rgb(0, 98, 255);
+}
+#countries {
+    padding-top: 80px;
+
+}
+#countries-row {
+    padding: 0px 25px 0 25px;
+
+}
+
+#countries h2{
+    padding-bottom: 60px;
+
+}
+#content {
+    padding-bottom: 30px;
+    padding-left: 40px;
+    border-bottom: solid white 2px;
+}
+#baby-content {
+    padding-top: 30px;
+    
+}
+#baby-content {
+    font-size: 17px;
+}
+#baby-col {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#highlights {
+    padding-top: 0px;
+}
+#super-baby-content {
+    padding: 15px 20px;
+    height: 100%;
+}
+#baby-card {
+    border-radius: 30px;
+    background:  rgba(164, 164, 164, 0.738);
+    box-shadow: 0 0 10px rgba(72, 72, 72, 0.6),0 0 20px rgba(98, 98, 98, 0.727), 0 0 30px rgba(225, 225, 225, 0.4);
+}
+#baby-card-img img{
+    height: 160px;
+    border-radius: 20px;
+}
+#baby-card-img{
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(72, 72, 72, 0.6),0 0 20px rgba(98, 98, 98, 0.727), 0 0 30px rgba(225, 225, 225, 0.4);
+}
+#europe {
+    padding-bottom: 45px;
+    border-bottom: solid black 2px;
+    background: linear-gradient(#06234f, #212121);
+}
+
+/* countries2 */
+#countries2 {
+    padding-bottom: 70px;
+    border-bottom: solid black 2px;
+    background: linear-gradient(#212121, #06234f);
+    padding-top: 80px;
+}
+
+#countries2 h2 {
+    margin-bottom: 21px;
+    padding-bottom: 60px;
+}
+
+
+/* footer */
+
+.page-footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-top: 85px;
+}
+#footer {
+    border-top: solid grey 2px ;
+    
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+footer ul  {
+    list-style : none;
+    padding: 0;
+    margin: 0;
+}
+footer ul li {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+
+@media screen and (max-width: 1440px) {
+    #logo {
+        font-size: 16px;
+        
+    }
+    #pages div li a {
+        font-size: 13px;
+    }
+    
+}
+@media screen and (max-width: 1240px) {
+    #logo {
+        font-size: 11px;
+        
+    }
+    #pages div li a {
+        font-size: 11px;
+    }
+    
+}
+
+
+
+
+
+
+/* responsive test */
+
+
+/* Existing CSS remains unchanged */
+
+/* Add new responsive properties below */
+
+@media screen and (max-width: 1024px) {
+    /* Medium screens (tablets and smaller laptops) */
+    #logo {
+        font-size: 14px;
+    }
+    #pages div li a {
+        font-size: 12px;
+    }
+    #title-intro h4 {
+        font-size: 24px;
+    }
+    #cards-j {
+        height: 320px;
+        width: 100%; /* Make cards full width on smaller screens */
+    }
+    #column img {
+        height: 200px;
+    }
+    #column a {
+        font-size: 24px;
+        padding-left: 20px;
+    }
+    #second-row-baby img {
+        height: 300px;
+    }
+    #baby-content {
+        font-size: 15px;
+    }
+    #super-baby-content p {
+        font-size: 14px;
+    }
+    #countries-row {
+        padding: 0px 15px 0 15px;
+    }
+    #top-card {
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+    #countries-circle {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* Tablets */
+    #logo {
+        font-size: 12px;
+    }
+    #pages div li a {
+        font-size: 11px;
+    }
+    header {
+        padding-top: 50px;
+    }
+    section h1 {
+        padding-top: 150px;
+        padding-bottom: 100px;
+        font-size: 2rem; /* Assuming default is larger */
+    }
+    #h1-title h1 {
+        margin-top: 50px;
+        padding-top: 40px;
+        margin-bottom: 40px;
+        padding-bottom: 20px;
+        font-size: 1.8rem;
+    }
+    #cards-j {
+        height: 280px;
+        width: 100%;
+        border-radius: 40px;
+    }
+    #column img {
+        height: 180px;
+        border-radius: 15px;
+        padding-bottom: 20px;
+    }
+    #column a {
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    #second-row-baby img {
+        height: 250px;
+        border-radius: 30px;
+    }
+    #super-baby-row img {
+        border-radius: 20px;
+    }
+    #title-intro h4 {
+        font-size: 20px;
+        padding-top: 15px;
+    }
+    #content h3 {
+        font-size: 1.5rem;
+    }
+    #baby-content {
+        font-size: 14px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #super-baby-content p {
+        font-size: 13px;
+    }
+    #baby-card-img img {
+        height: 120px;
+        border-radius: 15px;
+    }
+    #countries-row {
+        padding: 0px 10px 0 10px;
+    }
+    #top-card {
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    #countries-circle {
+        width: 60px;
+        height: 60px;
+    }
+    #countries h2, #countries2 h2 {
+        padding-bottom: 40px;
+        font-size: 1.8rem;
+    }
+    #countries h3 {
+        margin-bottom: 40px;
+    }
+    #third-row-baby {
+        max-height: none; /* Allow content to expand */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Mobile devices */
+    #logo {
+        font-size: 10px;
+    }
+    #pages div li a {
+        font-size: 10px;
+    }
+    header {
+        padding-top: 40px;
+    }
+    header nav {
+        position: relative; /* Change to relative for mobile to avoid overlap */
+    }
+    .sidenav-trigger {
+        display: block; /* Ensure hamburger menu is visible */
+    }
+    .hide-on-med-and-down {
+        display: none; /* Hide desktop nav on mobile */
+    }
+    .hide-on-large-only {
+        display: block; /* Show mobile logo */
+    }
+    section h1 {
+        padding-top: 100px;
+        padding-bottom: 50px;
+        font-size: 1.5rem;
+    }
+    #h1-title h1 {
+        margin-top: 30px;
+        padding-top: 20px;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        font-size: 1.4rem;
+    }
+    #cards-main .col {
+        margin-bottom: 20px; /* Add space between stacked cards */
+    }
+    #cards-j {
+        height: 250px;
+        width: 100%;
+        border-radius: 30px;
+    }
+    #column img {
+        height: 150px;
+        border-radius: 10px;
+        padding-bottom: 15px;
+    }
+    #column a {
+        font-size: 18px;
+        padding-left: 5px;
+    }
+    #second-row-baby img {
+        height: 200px;
+        border-radius: 20px;
+    }
+    #super-baby-row .col {
+        margin-bottom: 10px; /* Space between small images */
+    }
+    #title-intro h4 {
+        font-size: 18px;
+        padding-top: 10px;
+    }
+    #content h3 {
+        font-size: 1.3rem;
+    }
+    #description li {
+        font-size: 14px;
+    }
+    #quote {
+        font-size: 13px;
+    }
+    #baby-content {
+        font-size: 13px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #super-baby-content p {
+        font-size: 12px;
+    }
+    #baby-card-img img {
+        height: 100px;
+        border-radius: 10px;
+    }
+    #countries-row {
+        padding: 0px 5px 0 5px;
+    }
+    #top-card {
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    #countries-circle {
+        width: 50px;
+        height: 50px;
+    }
+    #countries h2, #countries2 h2 {
+        padding-bottom: 30px;
+        font-size: 1.5rem;
+    }
+    #countries h3 {
+        margin-bottom: 30px;
+    }
+    #third-row-baby {
+        max-height: none;
+    }
+    #baby-col {
+        margin-bottom: 15px; /* Space between cards in row */
+    }
+}
+
+@media screen and (max-width: 320px) {
+    /* Small mobile devices */
+    #logo {
+        font-size: 9px;
+    }
+    #pages div li a {
+        font-size: 9px;
+    }
+    section h1 {
+        font-size: 1.3rem;
+    }
+    #h1-title h1 {
+        font-size: 1.2rem;
+    }
+    #cards-j {
+        height: 220px;
+        border-radius: 20px;
+    }
+    #column img {
+        height: 120px;
+    }
+    #column a {
+        font-size: 16px;
+    }
+    #second-row-baby img {
+        height: 150px;
+    }
+    #title-intro h4 {
+        font-size: 16px;
+    }
+    #content h3 {
+        font-size: 1.2rem;
+    }
+    #baby-content {
+        font-size: 12px;
+    }
+    #super-baby-content p {
+        font-size: 11px;
+    }
+    #baby-card-img img {
+        height: 80px;
+    }
+    #countries h2, #countries2 h2 {
+        font-size: 1.3rem;
+    }
+}
+
+
+    
